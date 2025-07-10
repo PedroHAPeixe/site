@@ -38,3 +38,46 @@ This self-paced course will guide you through the basics of building a simple we
     <script src="script.js"></script>
 </body>
 </html>
+
+## Module 3: Styling with CSS 
+### Lesson 4: CSS Basics
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+## Module 4: Adding Interactivity with JavaScript
+### Lesson 5: JavaScript Basics
+
+document.addEventListener('DOMContentLoaded', function() {
+    const mainContent = document.querySelector('main');
+    const button = document.createElement('button');
+    button.textContent = 'Click Me!';
+    button.addEventListener('click', function() {
+        alert('Hello, welcome to my website!');
+    });
+    mainContent.appendChild(button);
+});
