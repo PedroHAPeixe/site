@@ -1,23 +1,27 @@
-# Site Simples
-Self-Instructional Course: Create a Simple Website Using HTML, CSS, and JavaScript
-# Self-Instructional Course: Create a Simple Website Using HTML, CSS, and JavaScript
+# Simple Website Course  
+**Self-Instructional Course: Create a Simple Website Using HTML, CSS, and JavaScript**
 
-## Course Overview
-This self-paced course will guide you through the basics of building a simple website using **HTML, CSS, and JavaScript**. By the end, you'll have a functional website you can customize and expand.
+## Course Overview  
+This self-paced course will guide you through building a simple website using **HTML, CSS, and JavaScript**. By the end, you'll have a functional website you can customize.
 
-## Module 1: Introduction to Web Development
-### Lesson 1: Understanding the Basics
-- What is a website?
-- How HTML, CSS, and JavaScript work together
-- Tools needed: Text Editor (VS Code, Sublime Text) and Web Browser (Chrome, Firefox)
+## Module 1: Introduction to Web Development  
+### Lesson 1: Understanding the Basics  
+- What is a website?  
+- How HTML, CSS, and JavaScript work together  
+- **Tools needed**:  
+  - Text Editor (VS Code, Sublime Text)  
+  - Web Browser (Chrome, Firefox)  
 
-### Lesson 2: Setting Up Your Workspace
-1. Install a code editor (e.g., VS Code)
-2. Create a project folder
-3. Set up files: `index.html`, `style.css`, `script.js`
+### Lesson 2: Setting Up Your Workspace  
+1. Install a code editor (recommend VS Code)  
+2. Create a project folder  
+3. Set up files:  
+   - `index.html`  
+   - `style.css`  
+   - `script.js`  
 
-## Module 2: Building the Structure with HTML
-### Lesson 3: HTML Fundamentals
+## Module 2: Building the Structure with HTML  
+### Lesson 3: HTML Fundamentals  
 ```html
 <!DOCTYPE html>
 <html>
@@ -38,9 +42,9 @@ This self-paced course will guide you through the basics of building a simple we
     <script src="script.js"></script>
 </body>
 </html>
-
-## Module 3: Styling with CSS 
-### Lesson 4: CSS Basics
+Module 3: Styling with CSS
+Lesson 4: CSS Basics
+css
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -68,10 +72,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
-## Module 4: Adding Interactivity with JavaScript
-### Lesson 5: JavaScript Basics
-
+Module 4: Adding Interactivity with JavaScript
+Lesson 5: JavaScript Basics
+javascript
 document.addEventListener('DOMContentLoaded', function() {
     const mainContent = document.querySelector('main');
     const button = document.createElement('button');
